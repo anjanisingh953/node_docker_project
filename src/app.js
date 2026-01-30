@@ -8,11 +8,15 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/test',(req,res)=>{
-    res.status(200).json({result:'This is testing routes'})
+    res.status(200).json({result:'This is testing route'})
 })
 
 app.get('/feature',(req,res)=>{
-    res.status(200).json({result:'This is feature routes'})
+    res.status(200).json({result:'This is feature route'})
+})
+
+app.get('/profile',(req,res)=>{
+    res.status(200).json({result:'This is profile route'})
 })
 
 
