@@ -11,6 +11,10 @@ app.get('/test',(req,res)=>{
     res.status(200).json({result:'This is testing routes'})
 })
 
+app.get('/feature',(req,res)=>{
+    res.status(200).json({result:'This is feature routes'})
+})
+
 
 
 module.exports=app;
