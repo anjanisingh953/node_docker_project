@@ -1,6 +1,6 @@
 {
   "name": "nodeapp",
-  "version": "3.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --legacy-watch  server.js",
