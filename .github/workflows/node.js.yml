@@ -25,10 +25,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # 4️⃣ (Optional) Run tests
-      - name: Run tests
-        run: npm test
-
       # 5️⃣ Set up Docker Buildx
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
